@@ -1,1 +1,0 @@
-console.log('egg,margerine,butter,flour');

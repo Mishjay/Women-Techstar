@@ -1,0 +1,423 @@
+
+body{
+   width:800px;
+   height: 100px;
+   font-family:  Font Awesome 6 Pro;
+   
+
+}
+.container{
+    display: grid;
+    height: 550px;
+    grid-template-columns: 50px auto auto auto;
+    padding: 20px;
+
+
+}
+.div1{
+    background-color:white;
+    border:1px solid grey;
+    padding: 5px;
+    justify-content: center;
+    width: 80px;
+}
+.home{
+    padding:16px
+ }
+
+.chats{
+    padding: 16px;
+    justify-content: centers;
+}
+.pie{
+    padding: 16px;
+    
+
+}
+.search{
+
+    padding: 16px;
+}
+    
+.calendar{
+    padding: 20px;
+}
+.settings{
+    padding: 350px;
+}
+
+    
+
+
+.div2{
+    background-color:white;
+    border: 1px solid grey;
+    width: 300px;
+    flex-direction: column;
+}
+.message{
+    padding-left: 20px;
+    
+}
+.angledown{
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+.sign{
+display: flex;
+
+}
+.number{
+    margin-top: 15px;
+    margin-bottom: 40px; 
+    margin-left: -30px;  
+}
+.plus{
+margin-left: 90px;
+margin-bottom: 40px;
+}
+.vertical-line {
+  width: 500px;
+  margin-top: -20px;
+}
+.search-sign{
+    padding:-60px;
+    margin-left: 30px ;
+}
+.icon{
+    display: flex;
+    padding: 12px;
+align-items: flex-start;
+justify-content: space-between;
+    
+}
+.Elmer{
+    margin-left: 80px;
+    padding-bottom: -50px;
+    margin-top: -60px;
+}
+.man{
+    margin-top: -10px;
+    margin-left:80px;
+}
+.flame{
+    margin-left: 180px;
+    margin-top: -90px;
+    width: 20px;
+    padding-bottom: 30px;
+     
+}
+
+.Question{
+    background:#FEEBC8;    
+    margin-right: 20px;
+    margin-left: 80px;
+    
+}
+.Help{
+    background-color:#C6F6D5;
+}
+.florence{
+    margin-left: 80px;
+    padding-bottom: -50px;
+    margin-top: -40px;
+}
+.m{
+    margin-left: 250px;
+    padding-bottom: -50px;
+    margin-top: -35px; 
+}
+.woo{
+    margin-left: 80px;
+    padding-bottom: -20px;
+    margin-top: -15px
+}
+.button{
+    margin-left: 80px;
+
+}
+.div3{
+    background-color:white;
+    border: 1px solid grey;
+    width:400px;
+    justify-content: space-between;
+    
+}
+.first{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.frame{
+    padding-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+.dorrance {
+margin-right: 100px;
+}
+.elipse{
+    width: 10px;
+    height: 10px;
+    margin-top: 50px;
+    margin-left: -250px;
+}
+.online{
+    margin-top: 45px;
+    margin-left: -20px;
+
+}
+.phone{
+    width:30px;
+    height: 20px;
+    padding-top: 15px;
+    padding-left:150px;
+}
+.call{
+padding-right: 10px;
+
+}
+ .guy{
+ margin-bottom: -30px;  
+ padding-left: 10px;
+ 
+}
+.amazing{
+    margin: 45px;
+    margin-left:25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.perfect{
+
+    margin-left:85px;
+    margin-top: -30px;
+}
+.Wow{
+    margin-left:85px;
+    margin-top: 10px;
+}
+.third{
+    padding:-30px;
+    margin-left:100px;
+}
+.How-are-you{
+    background:#615EF0 ;
+    margin-right:60px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.person{
+margin-left: -30px;
+margin-bottom: -10px;
+    
+}
+.div4{
+    background-color:white;
+    border: 1px solid grey;
+    width: 500px;
+    
+}
+.jo{
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+.next{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.mins{
+    margin-left: 80px;
+}
+.fifth{
+    margin-left: 250px; 
+
+    }  
+
+.exclamation{
+    margin-bottom: 10px;
+    margin-right:10px;
+    
+}
+.pic{
+     margin-bottom: 10px;
+     
+}
+.haha{
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.terrifying{
+    margin-left: -85px;
+
+
+}
+.gia{
+    margin-left: 10px;
+
+
+}
+.aww{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+.omg{
+margin:70px;
+margin-top: -30px;
+margin-bottom: 10px;
+
+}
+.ho{
+    margin: 20px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.buttom{
+    margin-top: 370px;
+    
+}
+.clip{
+    margin-left: 10px;
+    margin-right: -20px;
+}
+.text{
+    width: 300px;
+    margin-left: 30px;
+    background-color: white;
+    
+
+}
+.plane{
+    margin-left: 150px;
+    width: 20px;
+}
+.div4{
+    width: 350px;
+}
+.Directory{
+    margin-left: 10px;   
+}
+.ellipsis-v {
+    float: right;
+    margin: 5px;
+    margin-top: -10px;      
+}
+.Members{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.team{
+    margin-left:5px;
+}
+.kay{
+    margin-bottom: -70px;
+    margin-left: -130px;
+    
+}
+.florencio{
+    margin-left:80px;
+    margin-top: 15px;
+}
+.Development{
+    padding-left: 80px;
+    margin-top:10px;
+    
+
+}
+.span{
+    margin-left: 80px;
+    margin-top: -50px;
+    
+}
+.sales{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.eusebio{
+    margin-top: -50px;
+    margin-left: 80px;
+
+}
+.admin{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.Lavern{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+.Account{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.Alfonzo{
+    margin-left: 80px;
+    margin-top: -50px;
+}
+.proposal{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.Daryl{
+    padding-left: 80px;
+    margin-top: -50px;
+
+}
+.nursing{
+    margin-left: 80px;
+margin-top: 10px;
+}
+.Files{
+    padding-left: 20px;
+    margin-top:2px;
+    float: left;
+}
+.twenty{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.pdf{
+    margin-bottom: -30px;
+    
+}
+.eye{
+    padding-left: 90px;
+    margin-top: 5px;
+}
+.Dee{
+    padding-left: 90px;
+    padding-bottom: 30px;
+    
+}
+.nine{
+    padding-left: 130px;
+    margin-top: -65px;
+    margin-bottom: -30px;
+}
+.mb{
+    padding-left: 300px;
+    
+}
+.pdfone{
+    margin-left: 50px;
+    margin-bottom: -30px;
+
+}
+.pdftwo{
+    padding-left: 50px;
+    margin-bottom: -30px;
+}
+.pdfthree{
+    padding-left: 50px;
+    margin-bottom: -40px;
+}
