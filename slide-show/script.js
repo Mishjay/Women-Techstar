@@ -52,4 +52,4 @@ leftButton.addEventListener("click", function() {
   setInterval(function() {
     updateSlideshow();
     changeto();
-  }, 1000);
+  }, 2000);
