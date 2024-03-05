@@ -1,12 +1,15 @@
 import './App.css';
+import { LandingPageHeader } from './components/LandingPageHeader'
 
-function App() {
-  return (
-    <div>
-   <h1>Hello world</h1>
-   people of Africa
-   </div>
-  );
+   
+   export function App() {
+    return (
+        <div>
+            <LandingPageHeader/>
+        </div>
+
+    );
+
 }
 
 export default App;
