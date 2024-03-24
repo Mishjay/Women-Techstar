@@ -2,8 +2,9 @@ import './App.css';
 import { Features } from './components/Features';
 import { LandingPageHeader } from './components/Header/LandingPageHeader';
 import { Hero} from './components/Hero';
-   
-   export function App() {
+
+  
+export function App() {
     return (
         <div>
             <LandingPageHeader/>
@@ -12,6 +13,7 @@ import { Hero} from './components/Hero';
        amount = {'$232'}
        />
        <Features/>
+       
         </div>
 
     );
