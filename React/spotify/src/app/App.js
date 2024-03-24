@@ -1,4 +1,5 @@
 import './App.css';
+import { Features } from './components/Features';
 import { LandingPageHeader } from './components/Header/LandingPageHeader';
 import { Hero} from './components/Hero';
    
@@ -6,7 +7,11 @@ import { Hero} from './components/Hero';
     return (
         <div>
             <LandingPageHeader/>
-       <Hero />
+       <Hero  
+       title= "Get Premium free for 7 days"
+       amount = {'$232'}
+       />
+       <Features/>
         </div>
 
     );

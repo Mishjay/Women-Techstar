@@ -1,9 +1,13 @@
 import style from "./Hero.module.css"
 
-export const Hero = () => {
+export const Hero = (props) => {
+    console.log(props)
     return (
-    <section className={style.hero}>
-        <h1 className={style.title}> Get Premium free for 1 month</h1>
+    <section className={'${style.hero} ${props.className}'}>
+        <h1 className={style.title}>
+            {props.title ||
+       " Get Premium free for 1 month"}
+        </h1>
    <p className={style.description}>Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.</p>
    <div className={style['button-group']}>
     <button className="btn">Get Started</button>

@@ -8,7 +8,7 @@ export const LandingPageHeader = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     const toggleMenu = () => {
-      setShowMenu(!showMenu);
+      setShowMenu(showMenu === false);
     }
 
     return (
@@ -17,7 +17,7 @@ export const LandingPageHeader = () => {
           <Logo useWhite={true} />
         </div>
         
-        <div className="menu" onClick={toggleMenu}>
+        <div className="menu-icon" onClick={toggleMenu}>
           <MenuIcon fill='white'/>
         </div>
 
